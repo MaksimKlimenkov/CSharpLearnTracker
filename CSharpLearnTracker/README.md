@@ -9,6 +9,12 @@ Learned:
 - Classes, Structures, Namespaces
     - Classes, Objects, Constructors, Initializtors, Deconstructors
     - Getters, Setters
+    - Structs
+- OOP
+    - Polymorphism
+        - override
+- NuGet
+    - Add Package
 
 Next In Line:
 - Classes, Structures, Namespaces
