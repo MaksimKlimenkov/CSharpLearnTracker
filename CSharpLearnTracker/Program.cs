@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using CSharpLearnTracker.Classes;
+
+namespace CSharpLearnTracker;
+public static class Program {
+    public static void Main() {
+        ClassesLesson lesson1 = new();
+    }
+}

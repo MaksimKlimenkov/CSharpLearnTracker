@@ -6,10 +6,13 @@ Plan created by <a href="https://metanit.com/sharp/tutorial/">METANIT C# Course<
 
 Learned:
 - Basic Syntax
+- Classes, Structures, Namespaces
+    - Classes, Objects, Constructors, Initializtors, Deconstructors
+    - Getters, Setters
 
 Next In Line:
 - Classes, Structures, Namespaces
-    - Class, Object
+    - Structs
 
 In Plan:
 - OOP
