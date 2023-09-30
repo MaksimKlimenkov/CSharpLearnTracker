@@ -16,17 +16,16 @@ Learned:
         - Casting
         - Override, Hiding
     - Encapsulation
+    - Abstract Classes, Methods, Properties
 - NuGet
     - Add Package
 
 Next In Line:
 - OOP
-    - Abstract
     - Generics
-
+- Expections
 
 In Plan:
-- Expections
 - Delegates, Events, Lambda
 - Interfaces
 - Additional OOP

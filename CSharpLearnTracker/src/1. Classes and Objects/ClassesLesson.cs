@@ -1,8 +1,8 @@
 ﻿namespace CSharpLearnTracker.Classes;
 
-public class ClassesLesson
+public class ClassesLesson : Lesson
 {
-    public ClassesLesson()
+    public ClassesLesson(int id) : base(id)
     {
         Console.WriteLine("Lesson 1: Classes and Objects");
         Person person = new("Maksim", "test@mail.com", new DateTime(2005, 7, 10));

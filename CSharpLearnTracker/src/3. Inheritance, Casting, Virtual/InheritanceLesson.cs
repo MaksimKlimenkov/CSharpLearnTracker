@@ -1,8 +1,8 @@
 ﻿namespace CSharpLearnTracker.Inheritance;
 
-public class InheritanceLesson
+public class InheritanceLesson : Lesson
 {
-    public InheritanceLesson()
+    public InheritanceLesson(int id) : base(id)
     {
         Console.WriteLine("3. Inheritance, Casting, Virtual");
         Person person = new("Andrey");

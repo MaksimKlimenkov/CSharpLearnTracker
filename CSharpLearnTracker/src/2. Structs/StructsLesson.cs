@@ -1,8 +1,8 @@
 ﻿namespace CSharpLearnTracker.Structs;
 
-public class StructsLesson
+public class StructsLesson : Lesson
 {
-    public StructsLesson()
+    public StructsLesson(int id) : base(id)
     {
         Console.WriteLine("Lesson 2: Structs");
 
