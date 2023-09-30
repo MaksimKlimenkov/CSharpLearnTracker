@@ -16,5 +16,6 @@ public class StructsLesson
         Console.WriteLine(tom);
         Console.WriteLine(bob);
         Console.WriteLine(tamara);
+        Console.WriteLine();
     }
 }

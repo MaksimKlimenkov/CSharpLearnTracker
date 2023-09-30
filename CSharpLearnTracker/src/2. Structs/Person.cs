@@ -2,7 +2,7 @@
 
 public struct Person
 {
-    public string Name;
+    public string Name = null!;
     public int Age;
 
     public Person() { }

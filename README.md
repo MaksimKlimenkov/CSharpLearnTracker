@@ -12,16 +12,20 @@ Learned:
     - Structs
 - OOP
     - Polymorphism
-        - override
+    - Inheritance
+        - Casting
+        - Override, Hiding
+    - Encapsulation
 - NuGet
     - Add Package
 
 Next In Line:
-- Classes, Structures, Namespaces
-    - Structs
+- OOP
+    - Abstract
+    - Generics
+
 
 In Plan:
-- OOP
 - Expections
 - Delegates, Events, Lambda
 - Interfaces
