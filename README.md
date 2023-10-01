@@ -18,14 +18,14 @@ Learned:
     - Encapsulation
     - Abstract Classes, Methods, Properties
     - Generics
+- Expections
 - NuGet
     - Add Package
 
 Next In Line:
-- Expections
+- Delegates, Events
 
 In Plan:
-- Delegates, Events, Lambda
 - Interfaces
 - Additional OOP
 - Pattern Matching
