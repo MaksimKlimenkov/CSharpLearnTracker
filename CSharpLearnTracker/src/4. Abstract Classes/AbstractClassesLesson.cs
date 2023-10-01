@@ -6,7 +6,7 @@ public class AbstractClassesLesson : Lesson
 {
     public AbstractClassesLesson(int id) : base(id)
     {
-        Console.WriteLine("4. Abstract Classes");
+        Console.WriteLine($"{id}. Abstract Classes");
         Shape[] shapes = new Shape[2] { new Rectangle(10f, 2.2f), new Circle(3.14f) };
         foreach (Shape shape in shapes) PrintShape(shape);
         Console.WriteLine();

@@ -17,12 +17,11 @@ Learned:
         - Override, Hiding
     - Encapsulation
     - Abstract Classes, Methods, Properties
+    - Generics
 - NuGet
     - Add Package
 
 Next In Line:
-- OOP
-    - Generics
 - Expections
 
 In Plan:

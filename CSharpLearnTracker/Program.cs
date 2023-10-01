@@ -1,5 +1,6 @@
 ﻿global using CSharpLearnTracker.Abstract;
 using CSharpLearnTracker.Classes;
+using CSharpLearnTracker.Generics;
 using CSharpLearnTracker.Inheritance;
 using CSharpLearnTracker.Structs;
 
@@ -12,5 +13,6 @@ public static class Program
         StructsLesson structsLesson = new(2);
         InheritanceLesson inheritanceLesson = new(3);
         AbstractClassesLesson abstractClassesLesson = new(4);
+        GenericsLesson genericsLesson = new(5);
     }
 }

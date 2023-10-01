@@ -4,7 +4,7 @@ public class ClassesLesson : Lesson
 {
     public ClassesLesson(int id) : base(id)
     {
-        Console.WriteLine("Lesson 1: Classes and Objects");
+        Console.WriteLine($"{id}. Classes and Objects");
         Person person = new("Maksim", "test@mail.com", new DateTime(2005, 7, 10));
         Person personWithIntializator = new Person { Name = "Maksim", Email = "test@mail.com", DateOfBirth = new DateTime(2005, 7, 10) };
         Console.WriteLine($"Person age: {person.Age}");

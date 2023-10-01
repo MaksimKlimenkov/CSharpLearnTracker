@@ -4,7 +4,7 @@ public class StructsLesson : Lesson
 {
     public StructsLesson(int id) : base(id)
     {
-        Console.WriteLine("Lesson 2: Structs");
+        Console.WriteLine($"{id}. Structs");
 
         Person tom = new()
         {
