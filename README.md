@@ -20,30 +20,29 @@ Learned:
     - Generics
 - Expections
 - Delegates, Events, Lambda
+    - Covariance, Countervariance
+    - Delegates Action, Predicate, Func
+    - Closure
 - NuGet
     - Add Package
 
 Next In Line:
-- Delegates, Events, Lambda
-    - Covariance, Countervariance
-    - Delegates Action, Predicate, Func
-    - Closure
-    
-In Plan:
 - Interfaces
-- Additional OOP
-- Pattern Matching
+
+In Plan:
 - Collections
 - Strings
-- Additional classes and structs
-- Multithreads
 - Async Development
+- Additional OOP
+- Additional classes and structs
 - LINQ
 - Parallel LINQ
+- Multithreads
+- JSON
+- XML
+- Pattern Matching
 - Reflection
 - Dynamic Language Runtime
 - Garbage Collector, Memory Managment, Pointers
-- JSON
-- XML
 - Application Processes and Domains
 - Application Publish
