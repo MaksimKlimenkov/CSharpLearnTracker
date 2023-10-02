@@ -19,12 +19,16 @@ Learned:
     - Abstract Classes, Methods, Properties
     - Generics
 - Expections
+- Delegates, Events, Lambda
 - NuGet
     - Add Package
 
 Next In Line:
-- Delegates, Events
-
+- Delegates, Events, Lambda
+    - Covariance, Countervariance
+    - Delegates Action, Predicate, Func
+    - Closure
+    
 In Plan:
 - Interfaces
 - Additional OOP

@@ -15,5 +15,9 @@ public class ExceptionsLesson : Lesson
         {
             Console.WriteLine("Valudator Error: " + ex.Message);
         }
+        finally
+        {
+            Console.WriteLine();
+        }
     }
 }
