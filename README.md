@@ -23,14 +23,20 @@ Learned:
     - Covariance, Countervariance
     - Delegates Action, Predicate, Func
     - Closure
+- Interfaces
+    - Explict implementation
+    - Interfaces in class inheritance
+    - Interfaces Inheritance
+    - Interfaces in Generics
+    - Covariance, Countervariance
 - NuGet
     - Add Package
 
 Next In Line:
-- Interfaces
+- Collections
+
 
 In Plan:
-- Collections
 - Strings
 - Async Development
 - Additional OOP
@@ -38,9 +44,9 @@ In Plan:
 - LINQ
 - Parallel LINQ
 - Multithreads
+- Pattern Matching
 - JSON
 - XML
-- Pattern Matching
 - Reflection
 - Dynamic Language Runtime
 - Garbage Collector, Memory Managment, Pointers
