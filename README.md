@@ -29,15 +29,19 @@ Learned:
     - Interfaces Inheritance
     - Interfaces in Generics
     - Covariance, Countervariance
+- Collections
+    - List, LinkedList, Queue, Stack, Dictionary
+    - ObservableCollection
+    - IEnumerable, IEnumerator
+    - yield
 - NuGet
     - Add Package
 
 Next In Line:
-- Collections
-
-
-In Plan:
 - Strings
+    
+In Plan:
+- DateTime
 - Async Development
 - Additional OOP
 - Additional classes and structs
