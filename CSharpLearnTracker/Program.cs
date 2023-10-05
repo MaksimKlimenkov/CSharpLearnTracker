@@ -7,6 +7,7 @@ using CSharpLearnTracker.Exceptions;
 using CSharpLearnTracker.Generics;
 using CSharpLearnTracker.Inheritance;
 using CSharpLearnTracker.Interfaces;
+using CSharpLearnTracker.Strings;
 using CSharpLearnTracker.Structs;
 
 namespace CSharpLearnTracker;
@@ -24,5 +25,6 @@ public static class Program
         DelegateCovarianceLesson delegateCovarianceLesson = new(8);
         InterfacesLesson interfacesLesson = new(9);
         CollectionsLesson collectionsLesson = new(10);
+        StringsLesson stringsLesson = new(11);
     }
 }

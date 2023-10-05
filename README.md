@@ -34,14 +34,14 @@ Learned:
     - ObservableCollection
     - IEnumerable, IEnumerator
     - yield
+- Strings
 - NuGet
     - Add Package
 
 Next In Line:
-- Strings
+- DateTime
     
 In Plan:
-- DateTime
 - Async Development
 - Additional OOP
 - Additional classes and structs
