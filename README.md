@@ -36,14 +36,14 @@ Learned:
     - yield
 - Strings
 - DateTime
+- Async Development
 - NuGet
     - Add Package
 
 Next In Line:
-- Async Development
+- Additional OOP
     
 In Plan:
-- Additional OOP
 - LINQ
 - Parallel LINQ
 - Multithreads

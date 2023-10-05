@@ -28,5 +28,7 @@ public static class Program
         CollectionsLesson collectionsLesson = new("10. Collections");
         StringsLesson stringsLesson = new("11. Strings");
         DatesLesson datesLesson = new("12. Dates");
+        AsyncLesson asyncLesson = new("13. Async");
+        Thread.Sleep(1000);
     }
 }
