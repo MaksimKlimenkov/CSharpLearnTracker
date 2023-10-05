@@ -37,6 +37,7 @@ public class StringsLesson : Lesson
         var matches = regex.Matches(s);
         foreach (Match match in matches)
             Console.WriteLine(match.Value);
+        Console.WriteLine();
 
     }
 }

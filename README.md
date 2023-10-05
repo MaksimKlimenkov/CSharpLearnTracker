@@ -35,20 +35,20 @@ Learned:
     - IEnumerable, IEnumerator
     - yield
 - Strings
+- DateTime
 - NuGet
     - Add Package
 
 Next In Line:
-- DateTime
+- Async Development
     
 In Plan:
-- Async Development
 - Additional OOP
-- Additional classes and structs
 - LINQ
 - Parallel LINQ
 - Multithreads
 - Pattern Matching
+- Additional classes and structs
 - JSON
 - XML
 - Reflection

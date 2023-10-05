@@ -1,6 +1,7 @@
 ﻿global using CSharpLearnTracker.Abstract;
 using CSharpLearnTracker.Classes;
 using CSharpLearnTracker.Collections;
+using CSharpLearnTracker.Dates;
 using CSharpLearnTracker.DelegateCovariance;
 using CSharpLearnTracker.Delegates;
 using CSharpLearnTracker.Exceptions;
@@ -26,5 +27,6 @@ public static class Program
         InterfacesLesson interfacesLesson = new(9);
         CollectionsLesson collectionsLesson = new(10);
         StringsLesson stringsLesson = new(11);
+        DatesLesson datesLesson = new(12);
     }
 }
