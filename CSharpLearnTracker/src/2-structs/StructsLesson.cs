@@ -2,10 +2,12 @@
 
 public class StructsLesson : Lesson
 {
-    public StructsLesson(int id) : base(id)
+    public StructsLesson(string name) : base(name)
     {
-        Console.WriteLine($"{id}. Structs");
+    }
 
+    protected override void StartLesson()
+    {
         Person tom = new()
         {
             Name = "Tom",

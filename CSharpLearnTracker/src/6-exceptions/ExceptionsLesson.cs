@@ -2,14 +2,17 @@
 
 public class ExceptionsLesson : Lesson
 {
-    public ExceptionsLesson(int id) : base(id)
+    public ExceptionsLesson(string name) : base(name)
     {
-        Console.WriteLine($"{id}. Exceptions");
+    }
+
+    protected override void StartLesson()
+    {
         Validator validator = new();
         try
         {
             Console.WriteLine(validator.isString("megastring"));
-            Console.WriteLine(validator.isString(id));
+            Console.WriteLine(validator.isString(5));
         }
         catch (ValidatorException ex)
         {

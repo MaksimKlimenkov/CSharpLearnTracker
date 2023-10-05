@@ -2,9 +2,12 @@
 
 public class DatesLesson : Lesson
 {
-    public DatesLesson(int id) : base(id)
+    public DatesLesson(string name) : base(name)
     {
-        Console.WriteLine($"{id}. Dates");
+    }
+
+    protected override void StartLesson()
+    {
         DateTime zeroDate = new(); // == DateTime.MinValue
         DateTime date = new(2007, 7, 15, 18, 30, 50);
         DateTime date1 = new(1970, 1, 1, 0, 0, 0);

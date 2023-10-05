@@ -4,9 +4,12 @@ namespace CSharpLearnTracker;
 
 public class AbstractClassesLesson : Lesson
 {
-    public AbstractClassesLesson(int id) : base(id)
+    public AbstractClassesLesson(string name) : base(name)
     {
-        Console.WriteLine($"{id}. Abstract Classes");
+    }
+
+    protected override void StartLesson()
+    {
         Shape[] shapes = new Shape[2] { new Rectangle(10f, 2.2f), new Circle(3.14f) };
         foreach (Shape shape in shapes) PrintShape(shape);
         Console.WriteLine();

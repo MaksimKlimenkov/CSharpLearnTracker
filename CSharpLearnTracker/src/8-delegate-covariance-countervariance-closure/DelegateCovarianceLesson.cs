@@ -2,10 +2,12 @@
 
 public class DelegateCovarianceLesson : Lesson
 {
-    public DelegateCovarianceLesson(int id) : base(id)
+    public DelegateCovarianceLesson(string name) : base(name)
     {
-        Console.WriteLine($"{id}. Delegate Covariance and Countervariance");
+    }
 
+    protected override void StartLesson()
+    {
         // Covariance
         MessageBuilder messageBuilder;
         messageBuilder = (text) => new EmailMessage(text);

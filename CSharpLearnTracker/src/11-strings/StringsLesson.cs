@@ -5,9 +5,12 @@ namespace CSharpLearnTracker.Strings;
 
 public class StringsLesson : Lesson
 {
-    public StringsLesson(int id) : base(id)
+    public StringsLesson(string name) : base(name)
     {
-        Console.WriteLine($"{id}. Strings");
+    }
+
+    protected override void StartLesson()
+    {
         string s1 = "hello";
         string s2 = new('a', 6);
         string s3 = new(new char[] { 'w', 'o', 'r', 'l', 'd' });
@@ -38,6 +41,5 @@ public class StringsLesson : Lesson
         foreach (Match match in matches)
             Console.WriteLine(match.Value);
         Console.WriteLine();
-
     }
 }

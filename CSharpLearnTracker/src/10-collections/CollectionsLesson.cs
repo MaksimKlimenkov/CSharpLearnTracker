@@ -7,9 +7,12 @@ namespace CSharpLearnTracker.Collections;
 
 public class CollectionsLesson : Lesson
 {
-    public CollectionsLesson(int id) : base(id)
+    public CollectionsLesson(string name) : base(name)
     {
-        Console.WriteLine($"{id}. Collections");
+    }
+
+    protected override void StartLesson()
+    {
         ListMethod();
         LinkedListMethod();
         QueueMethod();

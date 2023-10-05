@@ -2,9 +2,12 @@
 
 public class InterfacesLesson : Lesson
 {
-    public InterfacesLesson(int id) : base(id)
+    public InterfacesLesson(string name) : base(name)
     {
-        Console.WriteLine($"{id}. Interfaces");
+    }
+
+    protected override void StartLesson()
+    {
         Person person = new("Andrey");
         Car car = new("Skoda", 150);
         Driver driver = new("Egor");
@@ -24,7 +27,6 @@ public class InterfacesLesson : Lesson
         messenger.SendMessage(simpleMessage);
 
         Console.WriteLine();
-
     }
 
     public void DoMove(IMovable movable) => movable.Move();

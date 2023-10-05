@@ -2,9 +2,12 @@
 
 public class GenericsLesson : Lesson
 {
-    public GenericsLesson(int id) : base(id)
+    public GenericsLesson(string name) : base(name)
     {
-        Console.WriteLine($"{id}. Generics");
+    }
+
+    protected override void StartLesson()
+    {
         Person<int> person = new(1, "Int Id Person");
         Person<string> person1 = new("6648392ab75c8de", "String Id Person");
         Person<Guid> person2 = new(new Guid(), "Guid Id person");

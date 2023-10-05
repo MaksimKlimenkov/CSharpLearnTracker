@@ -2,10 +2,12 @@
 
 public class DelegatesLesson : Lesson
 {
-    public DelegatesLesson(int id) : base(id)
+    public DelegatesLesson(string name) : base(name)
     {
-        Console.WriteLine($"{id}. Delegates, Events");
+    }
 
+    protected override void StartLesson()
+    {
         //Delegates
         Operation operation = Add;
         operation += Multiply;

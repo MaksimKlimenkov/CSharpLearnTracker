@@ -2,9 +2,12 @@
 
 public class ClassesLesson : Lesson
 {
-    public ClassesLesson(int id) : base(id)
+    public ClassesLesson(string name) : base(name)
     {
-        Console.WriteLine($"{id}. Classes and Objects");
+    }
+
+    protected override void StartLesson()
+    {
         Person person = new("Maksim", "test@mail.com", new DateTime(2005, 7, 10));
         Person personWithIntializator = new Person { Name = "Maksim", Email = "test@mail.com", DateOfBirth = new DateTime(2005, 7, 10) };
         Console.WriteLine($"Person age: {person.Age}");
@@ -12,5 +15,4 @@ public class ClassesLesson : Lesson
         (string name, int age) = person;
         Console.WriteLine($"Person deconstructed data: {name}/{age}\n");
     }
-
 }

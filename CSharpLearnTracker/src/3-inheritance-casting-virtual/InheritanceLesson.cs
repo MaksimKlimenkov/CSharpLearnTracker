@@ -2,9 +2,12 @@
 
 public class InheritanceLesson : Lesson
 {
-    public InheritanceLesson(int id) : base(id)
+    public InheritanceLesson(string name) : base(name)
     {
-        Console.WriteLine($"{id}. Inheritance, Casting, Virtual");
+    }
+
+    protected override void StartLesson()
+    {
         Person person = new("Andrey");
 
         // Upcasting
@@ -22,6 +25,5 @@ public class InheritanceLesson : Lesson
         //Downcasting
         if (employee is Employee emp) emp.Print();
         Console.WriteLine();
-
     }
 }
