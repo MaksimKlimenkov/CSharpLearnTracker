@@ -37,15 +37,24 @@ Learned:
 - Strings
 - DateTime
 - Async Development
+- Additional OOP
+    - Operators
+    - Conversions override
+    - Indexators
+    - Var references
+    - Extension
+    - Partial Classes
+    - Anonymous Types
+    - Tuples
+    - Records
 - NuGet
     - Add Package
 
 Next In Line:
-- Additional OOP
-    
-In Plan:
 - LINQ
 - Parallel LINQ
+    
+In Plan:
 - Multithreads
 - Pattern Matching
 - Additional classes and structs

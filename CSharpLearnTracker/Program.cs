@@ -1,4 +1,5 @@
 ﻿global using CSharpLearnTracker.Abstract;
+using CSharpLearnTracker.AdditionalOOP;
 using CSharpLearnTracker.Classes;
 using CSharpLearnTracker.Collections;
 using CSharpLearnTracker.Dates;
@@ -16,19 +17,20 @@ public static class Program
 {
     public static void Main()
     {
-        ClassesLesson classesLesson = new("1. Classes and Objects");
-        StructsLesson structsLesson = new("2. Structs");
-        InheritanceLesson inheritanceLesson = new("3. Inheritance, Casting, Virtual");
-        AbstractClassesLesson abstractClassesLesson = new("4. Abstract Classes");
-        GenericsLesson genericsLesson = new("5. Generics");
-        ExceptionsLesson exceptionsLesson = new("6. Exceptions");
-        DelegatesLesson delegatesLesson = new("7. Delegates, Events");
-        DelegateCovarianceLesson delegateCovarianceLesson = new("8. Delegate Covariance and Countervariance");
-        InterfacesLesson interfacesLesson = new("9. Interfaces");
-        CollectionsLesson collectionsLesson = new("10. Collections");
-        StringsLesson stringsLesson = new("11. Strings");
-        DatesLesson datesLesson = new("12. Dates");
-        AsyncLesson asyncLesson = new("13. Async");
+        _ = new ClassesLesson("1. Classes and Objects");
+        _ = new StructsLesson("2. Structs");
+        _ = new InheritanceLesson("3. Inheritance, Casting, Virtual");
+        _ = new AbstractClassesLesson("4. Abstract Classes");
+        _ = new GenericsLesson("5. Generics");
+        _ = new ExceptionsLesson("6. Exceptions");
+        _ = new DelegatesLesson("7. Delegates, Events");
+        _ = new DelegateCovarianceLesson("8. Delegate Covariance and Countervariance");
+        _ = new InterfacesLesson("9. Interfaces");
+        _ = new CollectionsLesson("10. Collections");
+        _ = new StringsLesson("11. Strings");
+        _ = new DatesLesson("12. Dates");
+        _ = new AsyncLesson("13. Async");
         Thread.Sleep(1000);
+        _ = new AdditionalOOPLesson("14. Additional OOP");
     }
 }
