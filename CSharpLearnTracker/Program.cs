@@ -9,6 +9,7 @@ using CSharpLearnTracker.Exceptions;
 using CSharpLearnTracker.Generics;
 using CSharpLearnTracker.Inheritance;
 using CSharpLearnTracker.Interfaces;
+using CSharpLearnTracker.LINQ;
 using CSharpLearnTracker.Strings;
 using CSharpLearnTracker.Structs;
 
@@ -32,5 +33,6 @@ public static class Program
         _ = new AsyncLesson("13. Async");
         Thread.Sleep(1000);
         _ = new AdditionalOOPLesson("14. Additional OOP");
+        _ = new LINQLesson("15. LINQ");
     }
 }

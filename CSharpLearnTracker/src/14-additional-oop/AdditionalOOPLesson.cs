@@ -59,7 +59,7 @@ public class AdditionalOOPLesson : Lesson
         bob.Age = 19;
         Console.WriteLine(bob);
         Console.WriteLine($"Structs comprassion sam == new Person(\"Sam\")? {sam == new Person("Sam")}");
-        Console.WriteLine($"Structs class comprassion john == new ClassPerson(\"John\", 18, 185)? {john == new ClassPerson("John", 18, 185)}");
+        Console.WriteLine($"Structs class comprassion john == new ClassPerson(\"John\", 18, 185)? {john == new ClassPerson("John", 18, 185)}\n");
 
 
 
