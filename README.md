@@ -47,15 +47,15 @@ Learned:
     - Anonymous Types
     - Tuples
     - Records
+- LINQ
+- Parallel LINQ
 - NuGet
     - Add Package
 
 Next In Line:
-- LINQ
-- Parallel LINQ
+- Multithreads
     
 In Plan:
-- Multithreads
 - Pattern Matching
 - Additional classes and structs
 - JSON
