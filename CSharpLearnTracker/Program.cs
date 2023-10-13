@@ -36,5 +36,6 @@ public static class Program
         _ = new AdditionalOOPLesson("14. Additional OOP");
         _ = new LINQLesson("15. LINQ");
         _ = new ParallelLINQLesson("16. Parallel LINQ");
+        _ = new MultithreadsLesson("17. Multithreads");
     }
 }

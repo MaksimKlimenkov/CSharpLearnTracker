@@ -49,15 +49,19 @@ Learned:
     - Records
 - LINQ
 - Parallel LINQ
+- Multithreads
+    - Threads
+    - lock, Monitor, AutoResetEvent, Mutex, Semaphores
+
 - NuGet
     - Add Package
 
 Next In Line:
-- Multithreads
+- Pattern Matching
     
 In Plan:
-- Pattern Matching
 - Additional classes and structs
+- Pattern Matching
 - JSON
 - XML
 - Reflection
