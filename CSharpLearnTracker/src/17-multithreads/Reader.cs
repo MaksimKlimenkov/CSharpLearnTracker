@@ -1,4 +1,4 @@
-﻿namespace CSharpLearnTracker;
+﻿namespace CSharpLearnTracker.Multithreads;
 
 public class Reader
 {

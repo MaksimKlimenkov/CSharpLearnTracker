@@ -1,4 +1,4 @@
-﻿namespace CSharpLearnTracker;
+﻿namespace CSharpLearnTracker.Multithreads;
 
 public class MultithreadsLesson : Lesson
 {
@@ -28,7 +28,7 @@ public class MultithreadsLesson : Lesson
         // mutex.WaitOne();
 
         // Synchronization by AutoResetEvent
-        // waitHandler.WaitOne();
+        waitHandler.WaitOne();
 
         // Synchronization by Monitor
         // var acquiredLock = false;
@@ -37,17 +37,17 @@ public class MultithreadsLesson : Lesson
         // {
 
         // Synchronization by lock
-        lock (locker)
+        // lock (locker)
+        // {
+        x = 1;
+        for (int i = 1; i < 3; i++)
         {
-            x = 1;
-            for (int i = 1; i < 3; i++)
-            {
 
-                Console.WriteLine($"{Thread.CurrentThread.Name}: {x}");
-                x++;
-                Thread.Sleep(5);
-            }
+            Console.WriteLine($"{Thread.CurrentThread.Name}: {x}");
+            x++;
+            Thread.Sleep(5);
         }
+        // }
 
         // }
         // finally
@@ -55,7 +55,7 @@ public class MultithreadsLesson : Lesson
         //     if (acquiredLock) Monitor.Exit(locker);
         // }
 
-        // waitHandler.Set();
+        waitHandler.Set();
 
         // mutex.ReleaseMutex();
     }

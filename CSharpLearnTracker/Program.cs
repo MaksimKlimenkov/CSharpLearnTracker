@@ -10,7 +10,9 @@ using CSharpLearnTracker.Generics;
 using CSharpLearnTracker.Inheritance;
 using CSharpLearnTracker.Interfaces;
 using CSharpLearnTracker.LINQ;
+using CSharpLearnTracker.Multithreads;
 using CSharpLearnTracker.ParallelLINQ;
+using CSharpLearnTracker.PatternMatching;
 using CSharpLearnTracker.Strings;
 using CSharpLearnTracker.Structs;
 
@@ -32,10 +34,12 @@ public static class Program
         _ = new StringsLesson("11. Strings");
         _ = new DatesLesson("12. Dates");
         _ = new AsyncLesson("13. Async");
-        Thread.Sleep(1000);
+        Thread.Sleep(2000);
         _ = new AdditionalOOPLesson("14. Additional OOP");
         _ = new LINQLesson("15. LINQ");
         _ = new ParallelLINQLesson("16. Parallel LINQ");
         _ = new MultithreadsLesson("17. Multithreads");
+        Thread.Sleep(4000);
+        _ = new PatternMatchingLesson("18. Pattern Matching");
     }
 }

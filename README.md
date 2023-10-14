@@ -52,16 +52,22 @@ Learned:
 - Multithreads
     - Threads
     - lock, Monitor, AutoResetEvent, Mutex, Semaphores
+- Pattern Matching
+    - Type Pattern
+    - Constant Pattern
+    - Properties Pattern
+    - Tuple Pattern
+    - Positional Pattern
+    - Relational and Logic Patterns
+    - List Pattern
 
 - NuGet
     - Add Package
 
 Next In Line:
-- Pattern Matching
+- Additional classes and structs
     
 In Plan:
-- Additional classes and structs
-- Pattern Matching
 - JSON
 - XML
 - Reflection
