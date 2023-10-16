@@ -60,16 +60,18 @@ Learned:
     - Positional Pattern
     - Relational and Logic Patterns
     - List Pattern
+- Additional classes and structs
+    - Lazy
+    - Span
+    - Index, Range
 
 - NuGet
     - Add Package
 
 Next In Line:
-- Additional classes and structs
-    
+- JSON + XML
+
 In Plan:
-- JSON
-- XML
 - Reflection
 - Dynamic Language Runtime
 - Garbage Collector, Memory Managment, Pointers

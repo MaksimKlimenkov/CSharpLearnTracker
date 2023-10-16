@@ -1,4 +1,5 @@
 ﻿global using CSharpLearnTracker.Abstract;
+using CSharpLearnTracker.AdditionalClassesAndStructs;
 using CSharpLearnTracker.AdditionalOOP;
 using CSharpLearnTracker.Classes;
 using CSharpLearnTracker.Collections;
@@ -41,5 +42,6 @@ public static class Program
         _ = new MultithreadsLesson("17. Multithreads");
         Thread.Sleep(4000);
         _ = new PatternMatchingLesson("18. Pattern Matching");
+        _ = new AdditionalClassesAndStructsLesson("19. Additional Classes and Structs");
     }
 }

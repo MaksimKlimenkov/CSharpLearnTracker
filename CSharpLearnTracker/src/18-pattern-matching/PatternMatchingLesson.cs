@@ -60,7 +60,7 @@ public class PatternMatchingLesson : Lesson
         Console.WriteLine(GetNumber(new int[] { 1, 23, 52, 3, 5 }));
         Console.WriteLine(GetNumber(new int[] { }));
         Console.WriteLine(GetNumber(null));
-
+        Console.WriteLine();
     }
 
     int GetNumber(int[]? arr) => arr switch
