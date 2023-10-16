@@ -1,0 +1,10 @@
+<people>
+  <person name="Tom">
+    <company>Amazon</company>
+    <age>18</age>
+  </person>
+  <person name="Bob">
+    <company>Spotify</company>
+    <age>35</age>
+  </person>
+</people>

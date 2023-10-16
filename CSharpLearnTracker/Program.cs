@@ -10,6 +10,7 @@ using CSharpLearnTracker.Exceptions;
 using CSharpLearnTracker.Generics;
 using CSharpLearnTracker.Inheritance;
 using CSharpLearnTracker.Interfaces;
+using CSharpLearnTracker.JSONAndXML;
 using CSharpLearnTracker.LINQ;
 using CSharpLearnTracker.Multithreads;
 using CSharpLearnTracker.ParallelLINQ;
@@ -43,5 +44,6 @@ public static class Program
         Thread.Sleep(4000);
         _ = new PatternMatchingLesson("18. Pattern Matching");
         _ = new AdditionalClassesAndStructsLesson("19. Additional Classes and Structs");
+        _ = new JSONAndXMLLesson("20. JSON + XML");
     }
 }

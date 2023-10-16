@@ -64,15 +64,15 @@ Learned:
     - Lazy
     - Span
     - Index, Range
+- JSON + XML
 
 - NuGet
     - Add Package
 
 Next In Line:
-- JSON + XML
+- Reflection
 
 In Plan:
-- Reflection
 - Dynamic Language Runtime
 - Garbage Collector, Memory Managment, Pointers
 - Application Processes and Domains
