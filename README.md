@@ -65,15 +65,15 @@ Learned:
     - Span
     - Index, Range
 - JSON + XML
+- Reflection
 
 - NuGet
     - Add Package
 
 Next In Line:
-- Reflection
+- Dynamic Language Runtime (DLR)
 
 In Plan:
-- Dynamic Language Runtime
 - Garbage Collector, Memory Managment, Pointers
 - Application Processes and Domains
 - Application Publish

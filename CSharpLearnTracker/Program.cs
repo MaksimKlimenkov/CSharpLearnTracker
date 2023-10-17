@@ -15,6 +15,7 @@ using CSharpLearnTracker.LINQ;
 using CSharpLearnTracker.Multithreads;
 using CSharpLearnTracker.ParallelLINQ;
 using CSharpLearnTracker.PatternMatching;
+using CSharpLearnTracker.Reflection;
 using CSharpLearnTracker.Strings;
 using CSharpLearnTracker.Structs;
 
@@ -45,5 +46,6 @@ public static class Program
         _ = new PatternMatchingLesson("18. Pattern Matching");
         _ = new AdditionalClassesAndStructsLesson("19. Additional Classes and Structs");
         _ = new JSONAndXMLLesson("20. JSON + XML");
+        _ = new ReflectionLesson("21. Reflection");
     }
 }
