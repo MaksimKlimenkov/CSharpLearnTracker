@@ -69,9 +69,6 @@ Learned:
 - Dynamic Language Runtime (DLR)
     - dynamic
     - ExpandoObject
-
+- Garbage Collector, Memory Managment, Pointers
 - NuGet
     - Add Package
-
-Next In Line:
-- Garbage Collector, Memory Managment, Pointers
