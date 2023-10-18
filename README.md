@@ -66,14 +66,12 @@ Learned:
     - Index, Range
 - JSON + XML
 - Reflection
+- Dynamic Language Runtime (DLR)
+    - dynamic
+    - ExpandoObject
 
 - NuGet
     - Add Package
 
 Next In Line:
-- Dynamic Language Runtime (DLR)
-
-In Plan:
 - Garbage Collector, Memory Managment, Pointers
-- Application Processes and Domains
-- Application Publish
