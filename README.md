@@ -72,3 +72,6 @@ Learned:
 - Garbage Collector, Memory Managment, Pointers
 - NuGet
     - Add Package
+
+Next In Line:
+- Model Validation

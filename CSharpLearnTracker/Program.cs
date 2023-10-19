@@ -6,6 +6,7 @@ using CSharpLearnTracker.Collections;
 using CSharpLearnTracker.Dates;
 using CSharpLearnTracker.DelegateCovariance;
 using CSharpLearnTracker.Delegates;
+using CSharpLearnTracker.DI;
 using CSharpLearnTracker.DLR;
 using CSharpLearnTracker.Exceptions;
 using CSharpLearnTracker.Generics;
@@ -51,5 +52,6 @@ public static class Program
         _ = new ReflectionLesson("21. Reflection");
         _ = new DLRLesson("22. Dynamic Language Runtime (DLR)");
         _ = new MemoryLesson("23. Garbage Collector, Memory Managment, Pointers");
+        _ = new DILesson("24. Dependency Injection");
     }
 }
