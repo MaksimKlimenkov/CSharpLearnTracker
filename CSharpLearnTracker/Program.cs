@@ -15,6 +15,7 @@ using CSharpLearnTracker.Interfaces;
 using CSharpLearnTracker.JSONAndXML;
 using CSharpLearnTracker.LINQ;
 using CSharpLearnTracker.Memory;
+using CSharpLearnTracker.ModelValidation;
 using CSharpLearnTracker.Multithreads;
 using CSharpLearnTracker.ParallelLINQ;
 using CSharpLearnTracker.PatternMatching;
@@ -53,5 +54,6 @@ public static class Program
         _ = new DLRLesson("22. Dynamic Language Runtime (DLR)");
         _ = new MemoryLesson("23. Garbage Collector, Memory Managment, Pointers");
         _ = new DILesson("24. Dependency Injection");
+        _ = new ValidationLesson("25. Model Validation");
     }
 }

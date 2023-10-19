@@ -70,8 +70,6 @@ Learned:
     - dynamic
     - ExpandoObject
 - Garbage Collector, Memory Managment, Pointers
+- Model Validation
 - NuGet
     - Add Package
-
-Next In Line:
-- Model Validation
